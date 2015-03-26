@@ -39,8 +39,8 @@ for (int pin= 0; pin<=15; pin++){      // Read and send analog pins 0-15
 
 
 
-for (int pin= 22; pin<=53; pin++){     // Read and send digital pins 22-53 (leaving
-    x = digitalRead(pin);              // comm and PWM pins available)
+for (int pin= 22; pin<=53; pin++){     // Read and send digital pins 2-53
+    x = digitalRead(pin);              
     sendValue (x);
     }
   
